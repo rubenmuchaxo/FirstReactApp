@@ -1,3 +1,8 @@
+/**
+ * Ficheiro de início do trabalho
+ */
+
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -7,7 +12,9 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* StrictMode -> only in development mode
+                      shows the problems found by React*/ }
+     <App />  {/*We are using the component App */}
   </React.StrictMode>
 );
 
